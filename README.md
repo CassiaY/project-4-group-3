@@ -23,7 +23,7 @@ Pretty colors
 
 ## Project Conclusions:  
 Heart disease will be cured by next year.  
-:sparkles: Happy holidays! :sparkles:
+✨ Happy holidays! ✨
 
 
 ## Resources  
