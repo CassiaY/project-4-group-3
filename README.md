@@ -1,16 +1,20 @@
-# Heart Disease Risk Something something something  
+# Heart Disease Risk Analysis  
 <font size="3">**Group-Project-4: Team 3**  
 **Contributors:** Logan Severson, MaiDao Lor, Kyle Dalton, Cassia Yoon  
 **Github link:** https://github.com/CassiaY/project-4-group-3
 **Slide link:** ________?????_____ </font>  
 
 ## Project Overview  
-
+For this project we visualized heart disease data and used machine learning to predict if a patient is at risk of heart disease based on BRFSS data (Behavioral Risk Factor Surveillance System). 
 
 
 ## The Process  
 ### Part 1: The Data  
-the dataset blah blah blah  
+[BRFSS](/https://www.cdc.gov/brfss/index.html) data is a yearly phone (landline and cell) survey in the US conducted by the CDC. The survey collects health-related risk behaviors, chronic health conditions, and use of preventive services. The [Diabetes Health Indicators dataset](/https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicators) we found contained preprocessed data intended to study the relationship between lifestyle and diabetes in the US. For this project, we decided to use this dataset to study heart disease risk instead.  
+Sample of the dataset:  
+![sample of the dataset](/readme_imgs/dataset_sample.png)  
+
+
 S3  
 
 ### Part 2: Machine Learning Model  
