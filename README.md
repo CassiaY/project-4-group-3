@@ -29,7 +29,7 @@ Pretty colors
 ## Resources  
 - Dataset: https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicators  
 - github markdown emoji list: https://gist.github.com/rxaviers/7360908
-- saving and loading keras model: https://medium.com/swlh/saving-and-loading-of-keras-sequential-and-functional-models-73ce704561f4
+- saving and loading keras model: https://deeplizard.com/learn/video/7n1SpeudvAE#:~:text=To%20do%20so%2C%20we%20first,the%20saved%20model%20on%20disk.&text=We%20can%20verify%20that%20the,get_weights()%20on%20the%20model.
 
 ## Acknowledgements
 We wish to thank our teaching staff:
