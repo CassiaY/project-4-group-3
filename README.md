@@ -13,6 +13,20 @@ For this project, we visualized heart disease data and used machine learning to 
 ![sample of the dataset](/readme_imgs/dataset_sample.png)  
 The dataset was then stored in a cloud computing service. We used [Amazon Web Services](/https://aws.amazon.com/) using the [S3](/https://aws.amazon.com/s3/) service. In the machine learning code, the data file is accessed via a link that grants temporary public access.  
 
+Seaborn was used to create a scatter plot of all the features vs target (see below). Due to the data having mostly binary data, the scatter plots had limited value.  
+![data scatter plots](/readme_imgs/data_scatterplots_all.png)  
+
+When reviewing this binary dataset, there are certain things that we took into consideration:  
+1. Response bias: Did all groups in our population have an equal chance of responding?  
+2. Representation: are all groups within our population adequately represented in the data?  
+3. Data collection method: could the method of data collection such as cellular versus landline influence the responses? For example, younger people might be more likely to respond on a cell phone, while older individuals might prefer landlines. When working with survey data, it's common to encounter non-response bias. This happens when the respondents of the survey differ in meaningful ways from those who did not respond.  
+
+We did some research to see how BRFSS Provides information on the background, data collection and processing, and the statistical, and analytical issues for the combined landline and cell phone data set. We found that:  
+1. The behavioral risk factor surveillance system (BRFSS) doesn't have a specific way to include people who don't have access to a telephone and therefore couldn't participate in the survey.  
+2. The BRFS uses a statistical technique called raking to adjust their data. This technique helps make the sample more representative of the entire population. If certain groups such as lower income people for example, are underrepresented and the survey responses, raking helps adjust the data to better reflect these groups presence in the overall population.  
+4. Even though the BRFSS survey might not reach everyone's they used statistical techniques to ensure their findings are accurate and representative as possible.
+
+
 ### Part 2: Machine Learning Model  
 The code files were created in [Google Colab](/https://colab.google/) and used:  
 - [scikit-learn](/https://scikit-learn.org/stable/) - a machine learning library for python  
@@ -48,9 +62,6 @@ The model was also loaded into [project_4_group_3_weights](/project_4_group_3_we
 We did attempt to extract feature importance from the deep machine learning model, but were not able to succeed in the time given. However, it seems to be possible based on some examples seen online using LIME or SHAP tools. See the Resources section below for links regarding this topic.
 
 ### Part 3: Visualizations  
-Seaborn was used to create a scatter plot of all the features vs target (see below). Due to the data having mostly binary data, the scatter plots had limited value.  
-![data scatter plots](/readme_imgs/data_scatterplots_all.png)  
-
 To be able to create the visualizations in Tableau, the data needed to be decoded using the [BRFSS Codebook](/https://www.cdc.gov/brfss/annual_data/2015/pdf/2015_calculated_variables_version4.pdf), [Survey Questionnaire](/https://www.cdc.gov/brfss/questionnaires/pdf-ques/2015-brfss-questionnaire-12-29-14.pdf), and the variables table from the [UCI dataset website](/https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicators). For example, the data used codes for respondent's [income](/readme_imgs/questionnaire_income.png), [education level](/readme_imgs/questionnaire_education.png), and [age group](/readme_imgs/codebook_ages.png).  
 
 Tableau blah blah blah  
