@@ -33,7 +33,7 @@ The hyperparameters for the best model found were:
 ![best model hyperparameters](/readme_imgs/best_hps.png)  
 
 This is the summary of the best model:  
-<img src="" width="100">
+<img src="https://github.com/CassiaY/project-4-group-3/blob/main/readme_imgs/best_model_summary.png?raw=true" width="500">
 
 The best machine learning model was exported in three different verions: [just the weights](/Resources/project-4-group-3-nn-model.h5), the [full model in HDF5 format](/Resources/project-4-group-3-nn-model_full.h5) and the [full model in keras file format](/Resources/project-4-group-3-nn-model_full.keras). These files are found in the 'Resources' folder.  
 
