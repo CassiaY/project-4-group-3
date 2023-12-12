@@ -64,11 +64,23 @@ We did attempt to extract feature importance from the deep machine learning mode
 ### Part 3: Visualizations  
 To be able to create the visualizations in Tableau, the data needed to be decoded using the [BRFSS Codebook](/https://www.cdc.gov/brfss/annual_data/2015/pdf/2015_calculated_variables_version4.pdf), [Survey Questionnaire](/https://www.cdc.gov/brfss/questionnaires/pdf-ques/2015-brfss-questionnaire-12-29-14.pdf), and the variables table from the [UCI dataset website](/https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicators). For example, the data used codes for respondent's [income](/readme_imgs/questionnaire_income.png), [education level](/readme_imgs/questionnaire_education.png), and [age group](/readme_imgs/codebook_ages.png).  
 
-Tableau blah blah blah  
-Pretty colors 
+#### Visualization 1:  
+sssssssss
+
+#### Visualization 2:  
+sssssssss
+
+#### Visualization 3:  
+sssssssss
+
+#### Visualization 4:  
+sssssssss
+
+#### Visualization 5:  
+sssssssss
 
 ## Project Conclusions:  
-
+ssssssssss
 
 ## Resources  
 - Dataset: https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicators  
