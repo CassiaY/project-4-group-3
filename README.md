@@ -36,7 +36,7 @@ The code files were created in [Google Colab](/https://colab.google/) and used:
 - [matplotlib](/https://matplotlib.org/) - a library for creating static, animated, and interactive visualizations in Python  
 - [seaborn](/https://seaborn.pydata.org/) - a Python data visualization library based on matplotlib  
 
-The file [project_4_group_3_nn.ipynb](/project_4_group_3_nn.ipynb) contains the code used to create the machine learning model to predict heart disease. We used keras-tuner auto-optimization to find the optimal hyperparameters to achieve the highest prediction rating. The maximum number of layers was set to 5. The maximum number of neurons was set to 50, which is between 2-3 times the number of input features.  
+The file [project_4_group_3_nn.ipynb](/project_4_group_3_nn.ipynb) contains the code used to train the machine learning model to predict heart disease. We used keras-tuner auto-optimization to find the optimal hyperparameters to achieve the highest prediction rating. The maximum number of layers was set to 5. The maximum number of neurons was set to 50, which is between 2-3 times the number of input features.  
 
 ![number of input features](/readme_imgs/n_features.png)  
 
