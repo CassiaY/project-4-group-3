@@ -42,7 +42,9 @@ The model file was then loaded into [project_4_group_3_plt.ipynb](/project_4_gro
 | ----------------------------------------------- | --------------------------------------- |
 | ![accuracy graph](/readme_imgs/nn_accuracy.png) | ![loss graph](/readme_imgs/nn_loss.png) |
 
-The model was also loaded into [project_4_group_3_weights](/project_4_group_3_weights.ipynb) to obtain the [weights](/readme_imgs/best_model_weights_sample.png). 
+The model was also loaded into [project_4_group_3_weights](/project_4_group_3_weights.ipynb) to obtain the [weights](/readme_imgs/best_model_weights_sample.png).  
+
+We did attempt to extract feature importance from the deep machine learning model, but were not able to succeed in the time given. However, it seems to be possible based on some examples seen online using LIME or SHAP tools. See the Resources section below for links regarding this topic.
 
 ### Part 3: Visualizations  
 Seaborn was used to create a scatter plot of all the features vs target (see below). Due to the data having mostly binary data, the scatter plots had limited value.  
@@ -63,6 +65,7 @@ Pretty colors
 - getting feature importance from a keras model:  https://datascience.stackexchange.com/questions/74661/feature-importance-in-neural-networks
 - LIME vs SHAP: https://www.kdnuggets.com/2020/01/explaining-black-box-models-ensemble-deep-learning-lime-shap.html  
 - shap usage example: https://colab.research.google.com/github/kweinmeister/notebooks/blob/master/tensorflow-shap-college-debt.ipynb#scrollTo=IytTh1pb0HGN  
+- resize github readme img: https://stackoverflow.com/questions/24383700/resize-image-in-the-wiki-of-github-using-markdown  
 - 
 
 
