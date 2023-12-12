@@ -21,7 +21,7 @@ The code files were created in [Google Colab](/https://colab.google/) and used:
 - [pandas](/https://pandas.pydata.org/) - a data analysis and manipulation tool for python  
 - [matplotlib](https://matplotlib.org/) - a library for creating static, animated, and interactive visualizations in Python  
 
-The file [project_4_group_3_nn.ipynb](/project_4_group_3_nn.ipynb) contains the code used to create the machine learning model to predict heart disease. We used keras-tuner auto-optimization to find the optimal hyperparameters to achieve the highest prediction rating. The maximum number of layers was set to 5. The maximum number of epochs was set to 20 to start. The maximum number of neurons was set to 50, which is between 2-3 times the number of input features.  
+The file [project_4_group_3_nn.ipynb](/project_4_group_3_nn.ipynb) contains the code used to create the machine learning model to predict heart disease. We used keras-tuner auto-optimization to find the optimal hyperparameters to achieve the highest prediction rating. The maximum number of layers was set to 5. The maximum number of neurons was set to 50, which is between 2-3 times the number of input features.  
 
 ![number of input features](/readme_imgs/n_features.png)  
 
@@ -45,6 +45,9 @@ The model file was then loaded into [project_4_group_3_plt.ipynb](/project_4_gro
 The model was also loaded into [project_4_group_3_weights](/project_4_group_3_weights.ipynb) to obtain the [weights](/readme_imgs/best_model_weights_sample.png). 
 
 ### Part 3: Visualizations  
+Seaborn was used to create a scatter plot of all the features vs target (see below). Due to the data having mostly binary data, the scatter plots had limited value.  
+![data scatter plots](/readme_imgs/data_scatterplots_all.png)  
+
 To be able to create the visualizations in Tableau, the data needed to be decoded using the [BRFSS Codebook](/https://www.cdc.gov/brfss/annual_data/2015/pdf/2015_calculated_variables_version4.pdf), [Survey Questionnaire](/https://www.cdc.gov/brfss/questionnaires/pdf-ques/2015-brfss-questionnaire-12-29-14.pdf), and the variables table from the [UCI dataset website](/https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicators). For example, the data used codes for respondent's [income](/readme_imgs/questionnaire_income.png), [education level](/readme_imgs/questionnaire_education.png), and [age group](/readme_imgs/codebook_ages.png).  
 
 Tableau blah blah blah  
@@ -57,6 +60,11 @@ Pretty colors
 - Dataset: https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicators  
 - saving and loading keras model: https://deeplizard.com/learn/video/7n1SpeudvAE#:~:text=To%20do%20so%2C%20we%20first,the%20saved%20model%20on%20disk.&text=We%20can%20verify%20that%20the,get_weights()%20on%20the%20model  
 - getting keras model weights:  https://stackoverflow.com/questions/46817085/keras-interpreting-the-output-of-get-weights  
+- getting feature importance from a keras model:  https://datascience.stackexchange.com/questions/74661/feature-importance-in-neural-networks
+- LIME vs SHAP: https://www.kdnuggets.com/2020/01/explaining-black-box-models-ensemble-deep-learning-lime-shap.html  
+- shap usage example: https://colab.research.google.com/github/kweinmeister/notebooks/blob/master/tensorflow-shap-college-debt.ipynb#scrollTo=IytTh1pb0HGN  
+- 
+
 
 ## Acknowledgements
 We wish to thank our teaching staff:
