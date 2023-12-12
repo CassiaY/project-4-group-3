@@ -24,7 +24,7 @@ When reviewing this binary dataset, there are certain things that we took into c
 We did some research to see how BRFSS Provides information on the background, data collection and processing, and the statistical, and analytical issues for the combined landline and cell phone data set. We found that:  
 1. The behavioral risk factor surveillance system (BRFSS) doesn't have a specific way to include people who don't have access to a telephone and therefore couldn't participate in the survey.  
 2. The BRFS uses a statistical technique called raking to adjust their data. This technique helps make the sample more representative of the entire population. If certain groups such as lower income people for example, are underrepresented and the survey responses, raking helps adjust the data to better reflect these groups presence in the overall population.  
-4. Even though the BRFSS survey might not reach everyone, **they used statistical techniques to ensure their findings are accurate and as representative of the population as possible.**  
+4. Even though the BRFSS survey might not reach everyone, **they used statistical techniques (such as raking) to ensure their findings are accurate and as representative of the population as possible.**  
 
 
 ### Part 2: Machine Learning Model  
@@ -66,20 +66,24 @@ To be able to create the visualizations in Tableau, the data needed to be decode
 
 #### Visualization 1:  
 ![age/gender graph](/readme_imgs/viz_age_gender.png)  
+Text ================================  
 
 #### Visualization 2:  
 ![categories graph](/readme_imgs/viz_categories.png)  
+Text ================================  
 
 #### Visualization 3:  
 ![alc/smoking graph](/readme_imgs/viz_alc_smok.png)  
+Over time, high blood pressure (hypertension) puts strain on the heart muscle and can lead to cardiovascular disease (CVD), which increases your risk of heart attack and stroke. Chemicals in cigarette smoke cause the blood to thicken and form clots inside veins and arteries. Blockage from a clot can lead to a heart attack and sudden death. While both have negative effects on your body, smoking increases the likelihood of getting any sort of heart disease/attack due to the various chemicals in he smoke that destroy your cells.  
 
 #### Visualization 4:  
 ![age/bmi graph](/readme_imgs/viz_age_bmi.png)
+Text ================================  
 
 > Additional visualizations can be found in the folder [readme_imgs](/readme_imgs).
 
 ## Project Conclusions:  
-ssssssssss
+Text ================================ ssssssssss
 
 ## Resources  
 - Dataset: https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicators  
