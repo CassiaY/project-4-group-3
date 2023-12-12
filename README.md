@@ -52,7 +52,7 @@ This is the summary of the best model:
 
 The best machine learning model was exported in three different verions: [just the weights](/Resources/project-4-group-3-nn-model.h5), the [full model in HDF5 format](/Resources/project-4-group-3-nn-model_full.h5) and the [full model in keras file format](/Resources/project-4-group-3-nn-model_full.keras). These files are found in the 'Resources' folder.  
 
-The model file was then loaded into [project_4_group_3_plt.ipynb](/project_4_group_3_plt.ipynb) to plot the graph of the accuracy and loss of the model over epochs:  
+The model file was then loaded into [project_4_group_3_plt.ipynb](/project_4_group_3_plt.ipynb) to plot the history of the accuracy and loss of the model:  
 | Accuracy                                        | Loss                                    |
 | ----------------------------------------------- | --------------------------------------- |
 | ![accuracy graph](/readme_imgs/nn_accuracy.png) | ![loss graph](/readme_imgs/nn_loss.png) |
@@ -65,19 +65,18 @@ We did attempt to extract feature importance from the deep machine learning mode
 To be able to create the visualizations in Tableau, the data needed to be decoded using the [BRFSS Codebook](/https://www.cdc.gov/brfss/annual_data/2015/pdf/2015_calculated_variables_version4.pdf), [Survey Questionnaire](/https://www.cdc.gov/brfss/questionnaires/pdf-ques/2015-brfss-questionnaire-12-29-14.pdf), and the variables table from the [UCI dataset website](/https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicators). For example, the data used codes for respondent's [income](/readme_imgs/questionnaire_income.png), [education level](/readme_imgs/questionnaire_education.png), and [age group](/readme_imgs/codebook_ages.png).  
 
 #### Visualization 1:  
-sssssssss
+![age/gender graph](/readme_imgs/viz_age_gender.png)  
 
 #### Visualization 2:  
-sssssssss
+![categories graph](/readme_imgs/viz_categories.png)  
 
 #### Visualization 3:  
-sssssssss
+![alc/smoking graph](/readme_imgs/viz_alc_smok.png)  
 
 #### Visualization 4:  
-sssssssss
+![age/bmi graph](/readme_imgs/viz_age_bmi.png)
 
-#### Visualization 5:  
-sssssssss
+> Additional visualizations can be found in the folder [readme_imgs](/readme_imgs).
 
 ## Project Conclusions:  
 ssssssssss
@@ -96,8 +95,6 @@ ssssssssss
 - S3 bucket granting public access: https://repost.aws/knowledge-center/read-access-objects-s3-bucket  
 - how to get number of input features (other than counting): https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html  
 - how to plot history of keras model: https://www.kaggle.com/code/danbrice/keras-plot-history-full-report-and-grid-search  
-- 
-
 
 ## Acknowledgements
 We wish to thank our teaching staff:
