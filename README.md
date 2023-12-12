@@ -13,7 +13,6 @@ For this project, we visualized heart disease data and used machine learning to 
 ![sample of the dataset](/readme_imgs/dataset_sample.png)  
 The dataset was then stored in a cloud computing service. We used [Amazon Web Services](/https://aws.amazon.com/) using the [S3](/https://aws.amazon.com/s3/) service. In the machine learning code, the data file is accessed via a link that grants temporary public access.  
 
-
 ### Part 2: Machine Learning Model  
 The code files were created in [Google Colab](/https://colab.google/) and used:  
 - [scikit-learn](/https://scikit-learn.org/stable/) - a machine learning library for python  
@@ -22,8 +21,7 @@ The code files were created in [Google Colab](/https://colab.google/) and used:
 - [pandas](/https://pandas.pydata.org/) - a data analysis and manipulation tool for python  
 - [matplotlib](https://matplotlib.org/) - a library for creating static, animated, and interactive visualizations in Python  
 
-hyperparameters blah  
-get weights: https://stackoverflow.com/questions/46817085/keras-interpreting-the-output-of-get-weights
+The file [project_4_group_3_nn.ipynb](/project_4_group_3_nn.ipynb) contains the code used to create the machine learning model to predict heart disease. We used keras-tuner auto-optimization to find the optimal hyperparameters to achieve the highest prediction rating.  
 
 ### Part 3: Visualizations  
 To be able to create the visualizations in Tableau, the data needed to be decoded using the [BRFSS Codebook](/https://www.cdc.gov/brfss/annual_data/2015/pdf/2015_calculated_variables_version4.pdf), [Survey Questionnaire](/https://www.cdc.gov/brfss/questionnaires/pdf-ques/2015-brfss-questionnaire-12-29-14.pdf), and the variables table from the [UCI dataset website](/https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicators). For example, the data used codes for respondent's [income](/readme_imgs/questionnaire_income.png), [education level](/readme_imgs/questionnaire_education.png), and [age group](/readme_imgs/codebook_ages.png).  
@@ -32,14 +30,12 @@ Tableau blah blah blah
 Pretty colors 
 
 ## Project Conclusions:  
-💖 Heart disease will be cured by next year. 💖  
-✨ Happy holidays! ✨
 
 
 ## Resources  
 - Dataset: https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicators  
-- github markdown emoji list: https://gist.github.com/rxaviers/7360908
-- saving and loading keras model: https://deeplizard.com/learn/video/7n1SpeudvAE#:~:text=To%20do%20so%2C%20we%20first,the%20saved%20model%20on%20disk.&text=We%20can%20verify%20that%20the,get_weights()%20on%20the%20model.
+- saving and loading keras model: https://deeplizard.com/learn/video/7n1SpeudvAE#:~:text=To%20do%20so%2C%20we%20first,the%20saved%20model%20on%20disk.&text=We%20can%20verify%20that%20the,get_weights()%20on%20the%20model  
+- getting keras model weights:  https://stackoverflow.com/questions/46817085/keras-interpreting-the-output-of-get-weights  
 
 ## Acknowledgements
 We wish to thank our teaching staff:
