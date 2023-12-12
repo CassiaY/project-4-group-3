@@ -24,7 +24,7 @@ When reviewing this binary dataset, there are certain things that we took into c
 We did some research to see how BRFSS Provides information on the background, data collection and processing, and the statistical, and analytical issues for the combined landline and cell phone data set. We found that:  
 1. The behavioral risk factor surveillance system (BRFSS) doesn't have a specific way to include people who don't have access to a telephone and therefore couldn't participate in the survey.  
 2. The BRFS uses a statistical technique called raking to adjust their data. This technique helps make the sample more representative of the entire population. If certain groups such as lower income people for example, are underrepresented and the survey responses, raking helps adjust the data to better reflect these groups presence in the overall population.  
-4. Even though the BRFSS survey might not reach everyone's they used statistical techniques to ensure their findings are accurate and representative as possible.
+4. Even though the BRFSS survey might not reach everyone, **they used statistical techniques to ensure their findings are accurate and as representative of the population as possible.**  
 
 
 ### Part 2: Machine Learning Model  
