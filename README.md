@@ -19,7 +19,8 @@ The code files were created in [Google Colab](/https://colab.google/) and used:
 - [keras-tuner](/https://keras.io/keras_tuner/) - a scalable hyperparameter optimization framework  
 - [tensorflow](/https://www.tensorflow.org/) - a library for machine learning and artificial intelligence  
 - [pandas](/https://pandas.pydata.org/) - a data analysis and manipulation tool for python  
-- [matplotlib](https://matplotlib.org/) - a library for creating static, animated, and interactive visualizations in Python  
+- [matplotlib](/https://matplotlib.org/) - a library for creating static, animated, and interactive visualizations in Python  
+- [seaborn](/https://seaborn.pydata.org/) - a Python data visualization library based on matplotlib  
 
 The file [project_4_group_3_nn.ipynb](/project_4_group_3_nn.ipynb) contains the code used to create the machine learning model to predict heart disease. We used keras-tuner auto-optimization to find the optimal hyperparameters to achieve the highest prediction rating. The maximum number of layers was set to 5. The maximum number of neurons was set to 50, which is between 2-3 times the number of input features.  
 
@@ -60,12 +61,18 @@ Pretty colors
 
 ## Resources  
 - Dataset: https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicators  
+- article discussing guideline for number of hidden layers: https://medium.com/geekculture/introduction-to-neural-network-2f8b8221fbd3#:~:text=Number%20of%20Neurons%20and%20Number%20of%20Layers%20in%20Hidden%20Layer&text=The%20number%20of%20hidden%20neurons,size%20of%20the%20output%20layer
+- export entire model (architecture + weights): https://stackoverflow.com/questions/76825216/is-there-a-way-to-save-a-model-with-hyperparameters-and-weights-both-after-hyper
 - saving and loading keras model: https://deeplizard.com/learn/video/7n1SpeudvAE#:~:text=To%20do%20so%2C%20we%20first,the%20saved%20model%20on%20disk.&text=We%20can%20verify%20that%20the,get_weights()%20on%20the%20model  
 - getting keras model weights:  https://stackoverflow.com/questions/46817085/keras-interpreting-the-output-of-get-weights  
 - getting feature importance from a keras model:  https://datascience.stackexchange.com/questions/74661/feature-importance-in-neural-networks
 - LIME vs SHAP: https://www.kdnuggets.com/2020/01/explaining-black-box-models-ensemble-deep-learning-lime-shap.html  
 - shap usage example: https://colab.research.google.com/github/kweinmeister/notebooks/blob/master/tensorflow-shap-college-debt.ipynb#scrollTo=IytTh1pb0HGN  
 - resize github readme img: https://stackoverflow.com/questions/24383700/resize-image-in-the-wiki-of-github-using-markdown  
+- how to filter warning in colab: https://copyprogramming.com/howto/python-how-to-disable-warning-on-google-colab  
+- S3 bucket granting public access: https://repost.aws/knowledge-center/read-access-objects-s3-bucket  
+- how to get number of input features (other than counting): https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html  
+- how to plot history of keras model: https://www.kaggle.com/code/danbrice/keras-plot-history-full-report-and-grid-search  
 - 
 
 
