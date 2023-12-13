@@ -66,7 +66,7 @@ To be able to create the visualizations in Tableau, the data needed to be decode
 
 #### Visualization 1:  
 ![age/gender graph](/readme_imgs/viz_age_gender.png)  
-Text ================================  
+The goal is to view the relationship between age, gender, and the incidence of heart disease or attacks, while also displaying the total count of respondents within each age group. Tableau was used to create the bar graph and totaled the number of male and female respondents. Each bar is split into two colors, representing whether they have had heart disease or attacks. Light blue represents those that responded ‘no’ and dark blue is ‘yes’. Following the increasing age group, we notice a trend. The dark blue bars that represent yes respondents to heart disease or attacks cases, generally increase. This suggests that heart disease or attacks become more common as age increases. When looking at the colors within each bar, we see another pattern. In some age groups, the section representing males is taller than that for females, indicating that more men in these groups have experienced heart disease or attacks.
 
 #### Visualization 2:  
 ![categories graph](/readme_imgs/viz_categories.png)  
