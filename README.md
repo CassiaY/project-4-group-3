@@ -61,6 +61,27 @@ The model was also loaded into [project_4_group_3_weights](/project_4_group_3_we
 
 We did attempt to extract feature importance from the deep machine learning model, but were not able to succeed in the time given. However, it seems to be possible based on some examples seen online using LIME or SHAP tools. See the Resources section below for links regarding this topic.
 
+Instead, to obtain information regarding feature importance, we trained a random forest model for the data by category and for overall. We also obtained confusion matrices for each category.    
+#### Overall  
+![all cm](/readme_imgs/rf_all_cm.png)  
+![all f-imp](/readme_imgs/rf_all_feature_importances.png)  
+
+#### Lifestyle  
+![lifestyle cm](/readme_imgs/rf_lifestyle_cm.png)  
+![lifestyle f-imp](/readme_imgs/rf_lifestyle_feature_importances.png)  
+
+#### Health Status  
+![health cm](/readme_imgs/rf_health_cm.png)  
+![health f-imp](/readme_imgs/rf_health_feature_importances.png)  
+
+#### Healthcare Access  
+![healthcare cm](/readme_imgs/rf_healthcare_cm.png)  
+![healthcare f-imp](/readme_imgs/rf_healthcare_feature_importances.png)  
+
+#### Demographic  
+![demographic cm](/readme_imgs/rf_demographic_cm.png)  
+![demographic f-imp](/readme_imgs/rf_demographic_feature_importances.png)  
+
 ### Part 3: Visualizations  
 To be able to create the visualizations in Tableau, the data needed to be decoded using the [BRFSS Codebook](/https://www.cdc.gov/brfss/annual_data/2015/pdf/2015_calculated_variables_version4.pdf), [Survey Questionnaire](/https://www.cdc.gov/brfss/questionnaires/pdf-ques/2015-brfss-questionnaire-12-29-14.pdf), and the variables table from the [UCI dataset website](/https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicators). For example, the data used codes for respondent's [income](/readme_imgs/questionnaire_income.png), [education level](/readme_imgs/questionnaire_education.png), and [age group](/readme_imgs/codebook_ages.png).  
 
@@ -84,6 +105,14 @@ Text ================================
 
 ## Project Conclusions:  
 Text ================================ ssssssssss
+heavy drinking younger respondents with heart disease or attack was relatively higher (8%) than in older adults, declining to 2% in respondents over 80, why?
+a. Are younger people engaging in riskier or more social behaviors, in spite of health?
+b. have other would be respondents expired?
+c. are older adults more responsible with their health?
+Respondents with Heart Disease or Attack at a younger age were less likely to smoke just above 20% while older respondents were more likely.
+a. Does this represent the cultural shift away from smoking?
+b. Did the survey measure or included vaping? Is this represented?
+Respondents with a BMI near or above 50 were far more likely to have Heart Disease or attack, especially over age 35.
 
 ## Resources  
 - Dataset: https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicators  
