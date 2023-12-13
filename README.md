@@ -79,8 +79,8 @@ Instead, to obtain information regarding feature importance, we trained a random
 ![healthcare f-imp](/readme_imgs/rf_healthcare_feature_importances.png)  
 
 #### Demographic  
-![demographic cm](/readme_imgs/rf_demographic_cm.png)  
-![demographic f-imp](/readme_imgs/rf_demographic_feature_importances.png)  
+![demographic cm](/readme_imgs/rf_demographics_cm.png)  
+![demographic f-imp](/readme_imgs/rf_demographics_feature_importances.png)  
 
 ### Part 3: Visualizations  
 To be able to create the visualizations in Tableau, the data needed to be decoded using the [BRFSS Codebook](/https://www.cdc.gov/brfss/annual_data/2015/pdf/2015_calculated_variables_version4.pdf), [Survey Questionnaire](/https://www.cdc.gov/brfss/questionnaires/pdf-ques/2015-brfss-questionnaire-12-29-14.pdf), and the variables table from the [UCI dataset website](/https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicators). For example, the data used codes for respondent's [income](/readme_imgs/questionnaire_income.png), [education level](/readme_imgs/questionnaire_education.png), and [age group](/readme_imgs/codebook_ages.png).  
