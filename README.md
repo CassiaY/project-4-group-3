@@ -132,10 +132,11 @@ BMI, sex, mental health, and education. For future considerations, we would like
 - how to plot history of keras model: https://www.kaggle.com/code/danbrice/keras-plot-history-full-report-and-grid-search  
 
 ## To Good Health!
+If you’re interested, here is a couple links where you can check your risk of heart attacks or strokes in the next 10 year and get some tips on Healthy Lifestyles.  
+
 Calculate Your Heart Age: https://www.nyc.gov/site/doh/health/health-topics/heart-age-calculator.page 
 
 American Heart Associate: https://www.heart.org/en/healthy-living/healthy-lifestyle/lifes-essential-8
->>>>>>> b0934b067de771f97ab4f25fa2a72cdb88fff75c
 
 ## Acknowledgements
 We wish to thank our teaching staff:
