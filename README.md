@@ -108,7 +108,7 @@ Over time, high blood pressure (hypertension) puts strain on the heart muscle an
 
 #### Visualization 4:  
 ![age/bmi graph](/readme_imgs/viz_age_bmi.png)
-Text ================================  
+An individual's body mass index (BMI) isn't a give all tell all when it comes to likelihood of having heart diseases or attacks. It does in fact increase your chances of having one if you have a BMI roughly over 50. It's not a guarantee if you do have a BMI over that amount that you will have one, but it will increase the chances of it happening.  
 
 > Additional visualizations can be found in the folder [readme_imgs](/readme_imgs).
 
