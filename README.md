@@ -113,7 +113,8 @@ Text ================================
 > Additional visualizations can be found in the folder [readme_imgs](/readme_imgs).
 
 ## Project Conclusions:  
-========= txt  
+In conclusion, we found correlations between different risk factors predicting heart disease or having a heart attack. We determined it is easier to predict the likelihood of who will not have heart disease or a heart attack rather than who will. The risk factors with the highest weights were found to be;
+BMI, sex, mental health, and education. For future considerations, we would like to work with more updated data and see different risk factors that can go into predications such as geography/weather, other lifestyle factors, and additional demographics.  
 
 ## Resources  
 - Dataset: https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicators  
