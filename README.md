@@ -135,7 +135,7 @@ BMI, sex, mental health, and education. For future considerations, we would like
 Calculate Your Heart Age: https://www.nyc.gov/site/doh/health/health-topics/heart-age-calculator.page 
 
 American Heart Associate: https://www.heart.org/en/healthy-living/healthy-lifestyle/lifes-essential-8
->>>>>>> b0934b067de771f97ab4f25fa2a72cdb88fff75c
+
 
 ## Acknowledgements
 We wish to thank our teaching staff:
