@@ -52,7 +52,7 @@ This is the summary of the best model:
 
 The best machine learning model was exported in three different verions: [just the weights](/Resources/project-4-group-3-nn-model.h5), the [full model in HDF5 format](/Resources/project-4-group-3-nn-model_full.h5) and the [full model in keras file format](/Resources/project-4-group-3-nn-model_full.keras). These files are found in the 'Resources' folder.  
 
-The model file was then loaded into [project_4_group_3_plt.ipynb](/project_4_group_3_plt.ipynb) to plot the history of the accuracy and loss of the model. We can see that the model achieved high accuracy and low loss, which indicates a low amount of prediction errors.    
+The model file was then loaded into [project_4_group_3_plt.ipynb](/project_4_group_3_plt.ipynb) to plot the history of the accuracy and loss of the model. The graphs show that the model achieved high accuracy and low loss, which indicates a low amount of prediction errors. However, we can see that there's a persistent gap between the training and validation lines in both graphs.  
 | Accuracy                                        | Loss                                    |
 | ----------------------------------------------- | --------------------------------------- |
 | ![accuracy graph](/readme_imgs/nn_accuracy.png) | ![loss graph](/readme_imgs/nn_loss.png) |
