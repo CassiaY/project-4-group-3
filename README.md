@@ -100,6 +100,11 @@ Text ================================ ssssssssss
 - how to get number of input features (other than counting): https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html  
 - how to plot history of keras model: https://www.kaggle.com/code/danbrice/keras-plot-history-full-report-and-grid-search  
 
+If you’re interested, here is a couple links where you can check your risk of heart attacks or strokes in the next 10 year and get some tips on Healthy Lifestyles. 
+
+- Calculate Your Heart Age: https://www.nyc.gov/site/doh/health/health-topics/heart-age-calculator.page 
+- American Heart Associate: https://www.heart.org/en/healthy-living/healthy-lifestyle/lifes-essential-8
+
 ## Acknowledgements
 We wish to thank our teaching staff:
 - Hunter Hollis
