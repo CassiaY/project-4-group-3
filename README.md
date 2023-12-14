@@ -138,6 +138,7 @@ Calculate Your Heart Age: https://www.nyc.gov/site/doh/health/health-topics/hear
 
 American Heart Associate: https://www.heart.org/en/healthy-living/healthy-lifestyle/lifes-essential-8
 
+
 ## Acknowledgements
 We wish to thank our teaching staff:
 - Hunter Hollis
