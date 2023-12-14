@@ -52,7 +52,7 @@ This is the summary of the best model:
 
 The best machine learning model was exported in three different verions: [just the weights](/Resources/project-4-group-3-nn-model.h5), the [full model in HDF5 format](/Resources/project-4-group-3-nn-model_full.h5) and the [full model in keras file format](/Resources/project-4-group-3-nn-model_full.keras). These files are found in the 'Resources' folder.  
 
-The model file was then loaded into [project_4_group_3_plt.ipynb](/project_4_group_3_plt.ipynb) to plot the history of the accuracy and loss of the model:  
+The model file was then loaded into [project_4_group_3_plt.ipynb](/project_4_group_3_plt.ipynb) to plot the history of the accuracy and loss of the model. We can see that the model achieved high accuracy and low loss, which indicates a low amount of prediction errors.    
 | Accuracy                                        | Loss                                    |
 | ----------------------------------------------- | --------------------------------------- |
 | ![accuracy graph](/readme_imgs/nn_accuracy.png) | ![loss graph](/readme_imgs/nn_loss.png) |
@@ -61,28 +61,35 @@ The model was also loaded into [project_4_group_3_weights](/project_4_group_3_we
 
 We did attempt to extract feature importance from the deep machine learning model, but were not able to succeed in the time given. However, it seems to be possible based on some examples seen online using LIME or SHAP tools. See the Resources section below for links regarding this topic.
 
-Instead, to obtain information regarding feature importance, we trained a random forest model for the data by category and for overall. We also obtained confusion matrices for each category.    
+Instead, to obtain information regarding feature importance, we trained a random forest model for the data by category and for overall. We also obtained confusion matrices and classificantion reports for each category.  
+
 #### Overall  
 ![all cm](/readme_imgs/rf_all_cm.png)  
 ![all f-imp](/readme_imgs/rf_all_feature_importances.png)  
+Here we can see that the model can predict who will NOT have heart disease or a heart attack with a precision of 87 percent, recall of 97%, and f1 score of 92%. On the other hand, the precision, recall and f1 scores are significantly lower when trying to predict who WILL have heart disease or a heart attack. Despite this difference, the accuracy score is high at 85%.  
+On below that is the list of the top 10 important features sorted from most to least important. The top 5 important features are BMI, sex, education, mental health, and age. It is interesting to note that most of these risk factors are in the health status and demograhic categories. The only exceptions to this are level of physical activity and whether they don't see a doctor due to cost.  
 
 #### Lifestyle  
 ![lifestyle cm](/readme_imgs/rf_lifestyle_cm.png)  
 ![lifestyle f-imp](/readme_imgs/rf_lifestyle_feature_importances.png)  
+It is important to note that the precision, recall, and f1 scores are 0 when trying to predict 'yes, they'll have heart disease/attack'. But the results do show that not smoking increases your chance of not developing hear disease. the feature importance for this is at 55%, which is pretty high.  
 
 #### Health Status  
 ![health cm](/readme_imgs/rf_health_cm.png)  
 ![health f-imp](/readme_imgs/rf_health_feature_importances.png)  
+With the health status category, the precision, recall, and f1 scores are higher this time in predicting 'yes, heart disease/attack', suggesting that the risk factors in this category are more important in predicting heart disease. The top feature importances in this category are: BMI, mental health, and general health status.  
 
 #### Healthcare Access  
 ![healthcare cm](/readme_imgs/rf_healthcare_cm.png)  
 ![healthcare f-imp](/readme_imgs/rf_healthcare_feature_importances.png)  
+With the Healthcare Access category, there weren't a lot of features but seems like getting regular cholesterol checks make one less likely to develop heart disease.  
 
 #### Demographic  
 ![demographic cm](/readme_imgs/rf_demographics_cm.png)  
 ![demographic f-imp](/readme_imgs/rf_demographics_feature_importances.png)  
+And lastly, with the Demographics category, it seems that sex can play an important role in predicting history of heart disease.  
 
-Based on the random forest model results, we can see that the model is better at predicting who **will not** have a heart attack or heart disease rather than predicting whether they **will** have a heart attack or heart disease. The precision is high with 'no heart attack/disease' (85% or higher) but low with 'yes heart attack/disease' (between 0 and 51%). The recall and f1 scores follow similar trend of being higher with 'no heart attack/disease'. The accuracy score for all the categories is high at around 85% for all the categories. 
+The predictive accuracy for both the keras tuner model and the random forest models were all around 85%. But taking a closer look at the random forest models, we noticed that the models were predicting who will NOT have history of heart disease rather than who will. This may be because this dataset was originally created to predict diabetes rather than heart disease.  
 
 ### Part 3: Visualizations  
 To be able to create the visualizations in Tableau, the data needed to be decoded using the [BRFSS Codebook](/https://www.cdc.gov/brfss/annual_data/2015/pdf/2015_calculated_variables_version4.pdf), [Survey Questionnaire](/https://www.cdc.gov/brfss/questionnaires/pdf-ques/2015-brfss-questionnaire-12-29-14.pdf), and the variables table from the [UCI dataset website](/https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicators). For example, the data used codes for respondent's [income](/readme_imgs/questionnaire_income.png), [education level](/readme_imgs/questionnaire_education.png), and [age group](/readme_imgs/codebook_ages.png).  
