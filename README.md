@@ -82,6 +82,8 @@ Instead, to obtain information regarding feature importance, we trained a random
 ![demographic cm](/readme_imgs/rf_demographics_cm.png)  
 ![demographic f-imp](/readme_imgs/rf_demographics_feature_importances.png)  
 
+Based on the random forest model results, we can see that the model is better at predicting who **will not** have a heart attack or heart disease rather than predicting whether they **will** have a heart attack or heart disease. The precision is high with 'no heart attack/disease' (85% or higher) but low with 'yes heart attack/disease' (between 0 and 51%). The recall and f1 scores follow similar trend of being higher with 'no heart attack/disease'. The accuracy score for all the categories is high at around 85% for all the categories. 
+
 ### Part 3: Visualizations  
 To be able to create the visualizations in Tableau, the data needed to be decoded using the [BRFSS Codebook](/https://www.cdc.gov/brfss/annual_data/2015/pdf/2015_calculated_variables_version4.pdf), [Survey Questionnaire](/https://www.cdc.gov/brfss/questionnaires/pdf-ques/2015-brfss-questionnaire-12-29-14.pdf), and the variables table from the [UCI dataset website](/https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicators). For example, the data used codes for respondent's [income](/readme_imgs/questionnaire_income.png), [education level](/readme_imgs/questionnaire_education.png), and [age group](/readme_imgs/codebook_ages.png).  
 
@@ -91,7 +93,7 @@ The goal is to view the relationship between age, gender, and the incidence of h
 
 #### Visualization 2:  
 ![categories graph](/readme_imgs/viz_categories.png)  
-Text ================================  
+Based on this graph, we can see that the top behavioral risk factors are: Cholesterol Check, Having Healthcare, Veggies/Fruits, and Physical activities. And other behavioral risk factors include: problems walking, high blood pressure, and heavy alcohol consumption.  
 
 #### Visualization 3:  
 ![alc/smoking graph](/readme_imgs/viz_alc_smok.png)  
@@ -104,15 +106,7 @@ Text ================================
 > Additional visualizations can be found in the folder [readme_imgs](/readme_imgs).
 
 ## Project Conclusions:  
-Text ================================ ssssssssss
-heavy drinking younger respondents with heart disease or attack was relatively higher (8%) than in older adults, declining to 2% in respondents over 80, why?
-a. Are younger people engaging in riskier or more social behaviors, in spite of health?
-b. have other would be respondents expired?
-c. are older adults more responsible with their health?
-Respondents with Heart Disease or Attack at a younger age were less likely to smoke just above 20% while older respondents were more likely.
-a. Does this represent the cultural shift away from smoking?
-b. Did the survey measure or included vaping? Is this represented?
-Respondents with a BMI near or above 50 were far more likely to have Heart Disease or attack, especially over age 35.
+========= txt  
 
 ## Resources  
 - Dataset: https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicators  
